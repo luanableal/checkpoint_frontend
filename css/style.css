@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/rioDeJaneiro.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    }
+
+    p{
+        margin: 10px;
+    }
+
+    #video{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    header h1{
+        font-family: 'Dancing Script', cursive;
+        font-size: 60px;
+        padding: 12px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgba(240, 248, 255, 0.658);
+    }
+
+    .curiosidades{
+        background-color: rgba(240, 248, 255, 0.658);
+    }
+
+    .curiosidades h2 {
+        font-size: 35px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .curiosidades > ul{
+        margin: 15px;
+        padding: 10px;
+
+    }
+
+    footer{
+        text-align: center;
+    margin-bottom: 0;
+    background-color: black;
+    height: 90px;
+        }
